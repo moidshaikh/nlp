@@ -1,1 +1,1 @@
-import stop_words
+import pos_tagging
