@@ -1,1 +1,1 @@
-import pos_tagging
+import chunking_a_text
