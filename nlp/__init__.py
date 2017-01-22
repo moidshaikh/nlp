@@ -1,1 +1,1 @@
-import chunking
+import named_entity_recognition
