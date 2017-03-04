@@ -6,7 +6,7 @@ nltk.data.path.append('E:\\VMware_shared\\NLTK_data')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-
+# Example text ---- random text from a txt file.. some license part.
 example_text = '''The following files can be redistributable under the license below: " \
                "Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:

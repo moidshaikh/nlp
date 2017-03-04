@@ -20,7 +20,11 @@ def process_content():
             words = nltk.word_tokenize(i)
             tagged = nltk.pos_tag(words)
 
-            nameEnt = nltk.ne_chunk(tagged)
+            # nameEnt = nltk.ne_chunk(tagged)
+
+            # Grouping named entity
+            nameEnt = nltk.ne_chunk(tagged, binary=True)
+
             nameEnt.draw()
 
     except Exception as e:

@@ -1,1 +1,1 @@
-import named_entity_recognition
+import lemmatizing
